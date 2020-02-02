@@ -1,8 +1,8 @@
 # React Testing Styled Components
 
-This repository refactories the default Create React App from imported CSS to a Style Component version. It also adds the [jest-styled-components package](https://github.com/styled-components/jest-styled-components) to simplify Jest Snapshot tests.
+This repository refactors the default Create React App from an imported CSS style to a Style Component version. It also adds the [jest-styled-components package](https://github.com/styled-components/jest-styled-components) to simplify Jest Snapshot tests.
 
-> Styled Components generates hashed CSS Class Names based on CSS Properties, so when a CSS Property changes, the CSS Class Name also changes. **jest-styled-components package** helps Jest Snapshot outputing clear errors about what CSS Properties changed, not only saying that a CSS Class Name have changed.
+> Styled Components generates hashed CSS Class Names based on CSS Properties, so when a CSS Property changes, the CSS Class Name also changes. **jest-styled-components package** helps Jest Snapshot outputing clear errors about what CSS Properties have changed, not only saying that a CSS Class Name have changed.
 
 The main files are [src/App.js](./src/App.js) and [src/App.test.js](./src/App.test.js).
 
