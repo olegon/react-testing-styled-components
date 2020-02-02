@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the App component Testing Jest Snapshots with Styled Components 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c1 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.c3 {
+  color: #61dafb;
+}
+
+.c3:hover {
+  color: #862b56;
+}
+
+.c2 {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (min-width:1200px) {
+  .c2 {
+    -webkit-animation: eykXYV infinite 20s linear;
+    animation: eykXYV infinite 20s linear;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="logo"
+        class="c2"
+        src="logo.svg"
+      />
+      <p>
+        Edit 
+        <code>
+          src/App.js
+        </code>
+         and save to reload.
+      </p>
+      <a
+        class="c3"
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </div>
+  </div>
+</div>
+`;

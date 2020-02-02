@@ -1,9 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import 'jest-styled-components'
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('Testing the App component', () => {
+  it('Testing Jest Snapshots with Styled Components', () => {
+    const { container } = render(<App />);
+
+    expect(container).toMatchSnapshot();
+  });
+})
